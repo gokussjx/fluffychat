@@ -10,6 +10,7 @@ import 'package:cross_file/cross_file.dart';
 import 'package:fluffychat/config/app_config.dart';
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/pages/chat_list/chat_list_view.dart';
+import 'package:fluffychat/utils/error_reporter.dart';
 import 'package:fluffychat/utils/localized_exception_extension.dart';
 import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
 import 'package:fluffychat/utils/platform_infos.dart';
@@ -418,6 +419,8 @@ class ChatListController extends State<ChatList>
           ActiveFilter.allChats;
     }
 
+    if (AppSettings.debugPush.value) _processPushHelperCrashReport();
+
     super.initState();
   }
 
@@ -428,6 +431,17 @@ class ChatListController extends State<ChatList>
     _onRoomTagUpdate?.cancel();
     scrollController.removeListener(_onScroll);
     super.dispose();
+  }
+
+  void _processPushHelperCrashReport() {
+    final store = Matrix.of(context).store;
+    final report = store.getStringList(AppConfig.pushHelperCrashReportKey);
+    if (report == null) return;
+    store.remove(AppConfig.pushHelperCrashReportKey);
+    ErrorReporter(
+      context,
+      'Push Helper has been crashed',
+    ).onErrorCallback(report.first, StackTrace.fromString(report.last));
   }
 
   Future<void> chatContextAction(
@@ -802,17 +816,6 @@ class ChatListController extends State<ChatList>
         activeFilter = ActiveFilter.allChats;
       }
     });
-  }
-
-  Future<void> dismissStatusList() async {
-    final result = await showOkCancelAlertDialog(
-      title: L10n.of(context).hidePresences,
-      context: context,
-    );
-    if (result == OkCancelResult.ok) {
-      AppSettings.showPresences.setItem(false);
-      setState(() {});
-    }
   }
 
   Future<void> setStatus() async {

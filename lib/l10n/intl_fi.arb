@@ -1962,8 +1962,6 @@
             }
         }
     },
-    "openChat": "Avaa Keskustelu",
-    "@openChat": {},
     "pinMessage": "Kiinnitä huoneeseen",
     "@pinMessage": {},
     "confirmEventUnpin": "Haluatko varmasti irrottaa tapahtuman pysyvästi?",
@@ -2410,11 +2408,6 @@
             }
         }
     },
-    "presencesToggle": "Näytä muiden käyttäjien tilaviestit",
-    "@presencesToggle": {
-        "type": "String",
-        "placeholders": {}
-    },
     "synchronizingPleaseWaitCounter": " Synkronoidaan… ({percentage} %)",
     "@synchronizingPleaseWaitCounter": {
         "type": "String",
@@ -2438,8 +2431,6 @@
     "@noOneCanJoin": {},
     "knock": "Koputa",
     "@knock": {},
-    "hidePresences": "Piilotetaanko tilaluettelo?",
-    "@hidePresences": {},
     "removeDevicesDescription": "Sinut kirjataan ulos tästä laitteesta, etkä voi enää vastaanottaa viestejä.",
     "@removeDevicesDescription": {},
     "banUserDescription": "Käyttäjä kielletään pikakeskustelusta, eikä hän voi liittyä pikakeskusteluun uudelleen ennen kuin kielto kumotetaan.",

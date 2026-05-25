@@ -1909,7 +1909,6 @@
         "type": "String",
         "placeholders": {}
     },
-    "openChat": "Otwórz czat",
     "supposedMxid": "To powinno być {mxid}",
     "@supposedMxid": {
         "type": "String",
@@ -2398,12 +2397,6 @@
         "description": "Set to true to always display time of day in 24 hour format."
     },
     "swipeRightToLeftToReply": "Przeciągnij w lewo, by odpowiedzieć",
-    "presencesToggle": "Pokazuj zmiany statusów innych użytkowników",
-    "@presencesToggle": {
-        "type": "String",
-        "placeholders": {}
-    },
-    "hidePresences": "Ukryć listę statusów?",
     "pleaseEnterANumber": "Proszę podać liczbę większą od 0",
     "commandHint_sendraw": "Wyślij zwykły json",
     "databaseMigrationBody": "Proszę czekać. Może to potrwać chwilę.",
@@ -2684,7 +2677,6 @@
     "createNewAccount": "Utwórz nowe konto",
     "signUpGreeting": "FluffyChat jest zdecentralizowany! Wybierz serwer, na którym chcesz utworzyć konto i zaczynamy!",
     "signInGreeting": "Masz już konto w sieci Matrix? Witaj z powrotem! Wybierz swój serwer macierzysty i zaloguj się.",
-    "appIntro": "Dzięki FluffyChat możesz rozmawiać ze znajomymi. To bezpieczny, zdecentralizowany komunikator oparty na sieci [matrix]! Dowiedz się więcej na https://matrix.org lub po prostu się zarejestruj.",
     "theProcessWasCanceled": "Proces został anulowany.",
     "join": "Dołącz",
     "searchOrEnterHomeserverAddress": "Wyszukaj lub wprowadź adres serwera macierzystego",

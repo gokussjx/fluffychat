@@ -1966,8 +1966,6 @@
     "@start": {},
     "reportUser": "التبيلغ عن المستخدم",
     "@reportUser": {},
-    "openChat": "فتح المحادثة",
-    "@openChat": {},
     "pinMessage": "تثبيت في الغرفة",
     "@pinMessage": {},
     "confirmEventUnpin": "هل أنت متأكد من إلغاء تثبيت الحدث بشكل دائم؟",
@@ -2458,15 +2456,8 @@
             }
         }
     },
-    "hidePresences": "إخفاء قائمة الحالة؟",
-    "@hidePresences": {},
     "incomingMessages": "الرسائل الواردة",
     "@incomingMessages": {},
-    "presencesToggle": "إظهار رسائل الحالة من المستخدمين الآخرين",
-    "@presencesToggle": {
-        "type": "String",
-        "placeholders": {}
-    },
     "stickers": "الملصقات",
     "@stickers": {},
     "discover": "استكشف",

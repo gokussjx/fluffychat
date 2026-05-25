@@ -1913,7 +1913,6 @@
     },
     "markAsRead": "Označit jako přečtené",
     "reportUser": "Nahlásit uživatele",
-    "openChat": "Otevřete chat",
     "dismiss": "Zavrhnout",
     "reactedWith": "{sender} reagoval s {reaction}",
     "@reactedWith": {
@@ -2170,11 +2169,6 @@
     "unread": "Nepřečtené",
     "space": "Prostor",
     "spaces": "Prostory",
-    "presencesToggle": "Zobrazení stavových zpráv od jiných uživatelů",
-    "@presencesToggle": {
-        "type": "String",
-        "placeholders": {}
-    },
     "aboutHomeserver": "O {homeserver}",
     "@aboutHomeserver": {
         "type": "String",
@@ -2215,7 +2209,6 @@
     "changedTheChatName": "{username} změnil/a název konverzace",
     "checkList": "Kontrolní seznam",
     "knock": "Zaklepat",
-    "hidePresences": "Skrýt seznam událostí?",
     "noBackupWarning": "Pozor! Bez povolení zálohování konverzací ztratíte přístup k zašifrovaným zprávám. Důrazně doporučujeme zálohování konverzací před odhlášením povolit.",
     "readUpToHere": "Čtěte až sem",
     "reportErrorDescription": "😭 Ale ne, něco se porouchalo. Pokud chcete, můžete tento bug nahlásit vývojářům.",
@@ -2577,7 +2570,6 @@
     "createNewAccount": "Vytvořit nový účet",
     "signUpGreeting": "FluffyChat je decentralizovaný! Vyberte server, kde si chcete vytvořit účet, a jdeme na věc!",
     "signInGreeting": "Již máte účet na Matrixu? Vítejte zpět! Vyberte svůj domácí server a přihlaste se.",
-    "appIntro": "S FluffyChatem můžeme chatovat s přáteli. Je to decentralizovaná chatovací aplikace pro [matrix]! Zjistěte více na https://matrix.org nebo se zaregistrujte.",
     "theProcessWasCanceled": "Proces byl zrušen.",
     "sendImages": "Poslat {count} obrazků",
     "@sendImages": {

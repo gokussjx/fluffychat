@@ -2169,7 +2169,6 @@
     "custom": "Personalitzat",
     "noBackupWarning": "Compte! Si no actives la còpia de seguretat dels xats, perdràs accés als teus missatges xifrats. És molt recomanable activar-ho abans de tancar la sessió.",
     "storeInSecureStorageDescription": "Desa la clau de recuperació en l'emmagatzematge segur d'aquest dispositiu.",
-    "openChat": "Obre el xat",
     "kickUserDescription": "Li usuàrïi ha estat expulsadi però no vetadi. Als xats públics, pot tornar-hi a entrar en qualsevol moment.",
     "importNow": "Importa-ho ara",
     "pinMessage": "Fixa a la sala",
@@ -2210,7 +2209,6 @@
     "verifyOtherUser": "🔐 Verifica uni altri usuàrïi",
     "verifyOtherDevice": "🔐 Verifica un altre dispositiu",
     "initAppError": "S'ha produït un error mentre s'inicialitzava l'aplicació",
-    "hidePresences": "Amagar la llista de Status?",
     "noUsersFoundWithQuery": "No s'ha trobat cap usuàrïi amb \"{query}\". Revisa si ho has escrit malament.",
     "@noUsersFoundWithQuery": {
         "type": "String",
@@ -2303,11 +2301,6 @@
                 "type": "String"
             }
         }
-    },
-    "presencesToggle": "Mostra els missatges d'estat d'altres usuàrïis",
-    "@presencesToggle": {
-        "type": "String",
-        "placeholders": {}
     },
     "stickers": "Enganxines",
     "discover": "Descobreix",
@@ -2729,7 +2722,6 @@
     "createNewAccount": "Crea un compte nou",
     "signUpGreeting": "El FluffyChat és descentralitzat! Tria un servidor on vulguis crear-t'hi un compte, i som-hi!",
     "signInGreeting": "Si ja tens un compte a Matrix, benvingudi! Tria el teu servidor i inicia-hi sessió.",
-    "appIntro": "Pots xatejar amb lis tevis amiguis amb Fluffychat. És una app de missatgeria [matrix] descentralitzada! Llegeix-ne més a https://matrix.org si vols, o inicia sessió.",
     "theProcessWasCanceled": "S'ha canceŀlat el procés.",
     "join": "Entra",
     "searchOrEnterHomeserverAddress": "Cerca o introdueix l'adreça del teu servidor",

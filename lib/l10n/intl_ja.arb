@@ -1841,7 +1841,6 @@
     "openGallery": "ギャラリーを開く",
     "removeFromSpace": "スペースから削除",
     "pleaseEnterRecoveryKeyDescription": "古いメッセージを解除するには、以前のセッションで生成されたリカバリーキーを入力してください。リカバリーキーはパスワードではありません。",
-    "openChat": "チャットを開く",
     "experimentalVideoCalls": "実験的なビデオ通話",
     "youAcceptedTheInvitation": "👍 招待を承諾しました",
     "youUnbannedUser": "{user} の禁止を解除しました",
@@ -2103,11 +2102,6 @@
                 "type": "int"
             }
         }
-    },
-    "presencesToggle": "他のユーザーからのステータスメッセージを表示する",
-    "@presencesToggle": {
-        "type": "String",
-        "placeholders": {}
     },
     "synchronizingPleaseWaitCounter": " 同期中…（{percentage}%）",
     "@synchronizingPleaseWaitCounter": {

@@ -1905,7 +1905,6 @@
     "dismiss": "Отклонить",
     "markAsRead": "Отметить как прочитанное",
     "reportUser": "Сообщить о пользователе",
-    "openChat": "Открыть чат",
     "reactedWith": "{sender} реагирует с {reaction}",
     "@reactedWith": {
         "type": "String",
@@ -2287,12 +2286,6 @@
         }
     },
     "incomingMessages": "Входящие сообщения",
-    "presencesToggle": "Показывать сообщения в статусах других пользователей",
-    "@presencesToggle": {
-        "type": "String",
-        "placeholders": {}
-    },
-    "hidePresences": "Скрыть список статусов?",
     "stickers": "Стикеры",
     "discover": "Исследовать",
     "globalChatId": "ID глобального чата",
@@ -2674,7 +2667,6 @@
     "advancedConfigurations": "Расширенные конфигурации",
     "signUpGreeting": "FluffyChat децентрализорован! Выберите сервер, где вы хотите сделать свой аккаунт и заходите!",
     "signInGreeting": "У вас есть уже аккаунт в Matrix? Добро пожаловать! Выберите свой сервер и войдите.",
-    "appIntro": "С FluffyChat'ом вы можете говорить со своими друзьями. Это защищённый децентрализорованный [matrix] мессенджер! Узнайте больше на https://matrix.org, если вам нравится или просто зарегистрироваться.",
     "join": "Присоединиться",
     "countFiles": "{count} файлов",
     "@countFiles": {
